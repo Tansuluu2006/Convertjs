@@ -1,0 +1,27 @@
+{% extends 'homebase.html' %}
+
+
+{% block title %}{{settings.title}}{% endblock title %} 
+{% block keywords %}{{settings.keywords}}{% endblock keywords %}
+{% block description %}{{settings.description}}{% endblock description %}
+
+
+{% block sidebar %}{% include 'sidebar_page.html' %}{% endblock %}
+
+{% block body %}
+<!-- BREADCRUMB -->
+<div id="breadcrumb">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="{% url 'home' %}">Главная</a></li>
+            <li>{{product.category.parent}}</li>
+            <li>{{product.category.title}}</li>
+            <li class="active">{{product.title}}</li>
+        </ul>
+    </div>
+</div>
+<!-- /BREADCRUMB -->
+-- /section -->
+
+{% endblock %}
+{% block foot %}{% include 'footer.html' %}{% endblock %}

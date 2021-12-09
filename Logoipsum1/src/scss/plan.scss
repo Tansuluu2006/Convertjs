@@ -1,0 +1,96 @@
+.plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+
+  &__content {
+    cursor: pointer;
+
+    &-title {
+      font-family: DM Sans, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 60px;
+      line-height: 70px;
+      letter-spacing: -1.87579px;
+      color: #19191B;
+      cursor: pointer;
+    }
+  }
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+  height: 60px;
+  background: #F7F7FB;
+  border-radius: 10px;
+  padding: 0 6px 0 6px;
+  align-items: center;
+  margin-left: 170px;
+  margin-top: 50px;
+  cursor: pointer;
+
+  &_coco {
+    display: flex;
+    background: #F7F7FB;
+    border-radius: 0 10px 10px 0;
+    width: 170px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #5454D4;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  &__content {
+    display: flex;
+    background: #F7F7FB;
+    border-radius: 10px 0 0 10px;
+    width: 170px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #5454D4;
+      color: white;
+      cursor: pointer;
+    }
+
+    &-yearly {
+      font-family: DM Sans, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 21px;
+      text-align: center;
+      letter-spacing: -0.500211px;
+      color: #19191B;
+      cursor: pointer;
+    }
+  }
+
+  &-monthly {
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #19191B;
+    cursor: pointer;
+  }
+}

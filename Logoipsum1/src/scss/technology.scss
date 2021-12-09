@@ -1,0 +1,34 @@
+.technology{
+
+  &-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__content{
+    &-title{
+      font-family: DM Sans, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      letter-spacing: -0.750316px;
+      color: #19191B;
+    }
+    &-text{
+      font-family: Mulish, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: -0.500211px;
+      color: #696871;
+    }
+    &-img{
+      margin-inline-start: 100px;
+      margin-top: 0;
+    }
+  }
+}

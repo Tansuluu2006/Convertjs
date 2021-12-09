@@ -1,0 +1,16 @@
+{% extends 'homebase.html' %}
+
+
+{% block title %}
+    {{settings.title}}
+{% endblock title %} 
+{% block keywords %}
+    {{settings.keywords}}
+{% endblock keywords %}
+{% block description %}{{settings.description}}{% endblock description %}
+
+
+{% block sidebar %}{% include 'sidebar.html' %}{% endblock %}
+{% block slider %}{% include 'slider.html' %}{% endblock %}
+{% block body %}{% include 'content.html' %}{% endblock %}
+{% block foot %}{% include 'footer.html' %}{% endblock %}

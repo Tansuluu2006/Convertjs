@@ -1,0 +1,52 @@
+.header{
+  &-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  &__logo{
+
+  }
+
+  &__nav{
+    display: flex;
+    width: 327px;
+    justify-content: space-between;
+    margin-top: 10px;
+    &-menu{
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: -0.468947px;
+      color: $gray;
+
+      &:hover{
+        color: #19191B;
+        border-bottom: solid  2px  #5454D4;
+      }
+    }
+  }
+  &-btn{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    padding: 13px 38px;
+    background: $orange;
+    border-radius: 10px;
+    border: 1px solid $orange;
+    transition: .4s;
+    cursor: pointer;
+    &:hover{
+      color: $orange;
+      background-color: #FFFFFF;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(34, 32, 32);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(158, 147, 147);
+    font-size: 12px;
+}
+
+.form-control{
+    background-color: rgb(19, 18, 18);
+}
+
+
+
